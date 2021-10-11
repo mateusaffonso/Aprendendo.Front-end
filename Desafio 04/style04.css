@@ -1,0 +1,26 @@
+
+body{
+    text-align: center;
+    position: absolute;
+    width:100%; 
+}
+
+
+form{
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+}
+
+fieldset{
+    border-radius: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-radius: 15px;
+    width: 150px;
+}
