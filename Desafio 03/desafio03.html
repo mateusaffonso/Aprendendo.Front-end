@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Choker</title>
+    <link rel="stylesheet" href="style03.css">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa de Satisfação Lotus Choker</h1>
+        <a href="https://www.instagram.com/lotuschokerr/"><img src="https://cf.shopee.com.br/file/1c7416ff659244d1edb517d9a09338af" alt="lotus Choler" height="100" width="100"/></a>
+        <br>
+    </header>
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <br>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="user_name" required/>
+                <br>
+                <br>
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="user_cpf" placeholder="digite, somente, números" required/>
+                <br>
+                <br>
+                <label for="date">Data de Nascimento:</label>
+                <input type="date" id="date" name="user_date" required/>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="user_email" required/>
+                <br>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Questionário de Satisfação do Cliente</legend>
+                <br>
+                <label for="quest1">Classifique o atendimento:</label>
+                <br>
+                <br>
+                <div id="radio2">
+                <input type="radio" id="quest1" name="user_option" required/>Muito bom
+                <br>
+                <input type="radio" id="quest1" name="user_option" required/>Bom
+                <br>
+                <input type="radio" id="quest1" name="user_option" required/>Ruim
+                <br>
+                <input type="radio" id="quest1" name="user_option" required/>Muito Ruim
+                </div>
+                <br>
+                <br>
+                <label for="suggestion">Como podemos melhorar o atendimento:</label>
+                <br>
+                <br>
+                <input type="text" id="suggestion" name="user_suggestion" required/>
+                <br>
+            </fieldset>
+            <br>
+            <button name="enviar" id="button">
+                <submit>Enviar</submit>
+            </button>
+        </form>
+    </main>
+    <footer>
+        <h6>Desenvolvido por Mateus Augusto, Aluno do VainaWeb.</h6>
+    </footer>
+</body>
+</html>

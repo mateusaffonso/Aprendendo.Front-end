@@ -1,0 +1,48 @@
+#form{
+    background-color: rgb(56, 37, 50);
+    width:fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    
+}
+
+body{
+    background-color:  rgb(70, 9, 52);
+
+}
+
+#suggestion{
+    width: 280px;
+
+
+}
+
+#button{
+    width: 310px;
+    border-radius: 50px;
+    
+}
+
+header h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border-radius: 50px;
+}
+
+main fieldset{
+    border-radius: 15px;
+    text-align:center;
+}
+
+main div{
+    text-align:left;
+}
