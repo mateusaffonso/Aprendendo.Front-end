@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+   background-image: url(https://wallpaperaccess.com/full/2384075.jpg);
+    background-size: cover;
+}
+header {
+    padding: 2%;
+    display:flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;    
+}
+
+.julius{
+ width: 300px; 
+}
+
+p{
+  font-size: 20px;
+}
+
+.css img{
+    width: 77%;
+}
+.css{
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-left: 2%;
+}
+.patrick{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+.patrick img{
+    width: 44%;
+}
+.quiz{
+    display: flex;
+}
+.lista{
+    margin-top: 7%;
+    margin-left: 2%;
+
+}
+.lista ol{
+    font-weight: bold;
+}
+.age{
+    margin-top: 2%;
+}
+.foot{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.foot img{
+    margin-left: 30%;
+    LARGURA: 19%;
+}
